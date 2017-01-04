@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ioT-epeder
+  host: ioT-epeder
+  disk_quota: 1024M
+  services:
+  - ioT-epeder-cloudantNoSQLDB
+  - ioT-epeder-iotf-service
